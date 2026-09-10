@@ -1,0 +1,100 @@
+# ============================
+# Build artifacts
+# ============================
+build/
+out/
+bin/
+obj/
+[Bb]uild/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.exp
+*.obj
+*.o
+*.a
+*.so
+*.dylib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+install_manifest.txt
+compile_commands.json
+*.cmake.stamp
+
+# ============================
+# Visual Studio / MSVC
+# ============================
+.vs/
+*.vcxproj
+*.vcxproj.*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vscode/
+
+# ============================
+# IDE / Editor
+# ============================
+.idea/
+*.swp
+*.swo
+*~
+*.autosave
+.vim/
+
+# ============================
+# Compiled / generated files
+# ============================
+*.gch
+*.pch
+*.gcda
+*.gcno
+*.gcov
+*.profraw
+*.profdata
+
+# ============================
+# Sanitizer & debug output
+# ============================
+*.log
+core
+core.*
+vgcore.*
+
+# ============================
+# OS files
+# ============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ============================
+# Secrets / local config
+# ============================
+.env
+*.local
+secrets.json
+config.local.yaml
+
+# ============================
+# Runtime output
+# ============================
+logs/
+*.log
+data/recordings/
+*.pcap
